@@ -1,0 +1,176 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: "Oxygen", sans-serif;
+}
+
+/*------------------Header-------------------------*/
+#nav-header {
+  background-color: grey;
+  border-radius: 0;
+  border-bottom: #000;
+  border-width: 0 0 2px;
+  border-style: solid;
+}
+.navbar-brand {
+  padding-top: 20px;
+}
+.navbar-brand h1 {
+  /*Heading Name */
+  font-size: 1.2em;
+  color: black;
+  line-height: 0.7em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+
+#tile1 #tile2 #tile3 {
+  padding: 5px 15px 5px 15px;
+  background-color: gray;
+  margin-top: 25px;
+  float: left;
+  margin-left: 6%;
+  width: 50%;
+  min-height: 10em;
+}
+
+#heading {
+  position: relative;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+#menu{
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bolder;
+  margin-top: 4%;
+}
+/*----------------Header End ----------------------*/
+
+
+/* ----------------------Toggler Button----------------------*/
+#navbarSupportedContent {
+  background-color: gray;
+  border-radius: 0;
+  margin: 0;
+ 
+}
+
+
+
+/* ----------------------Toggle Button end -------------------*/
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-3 {
+    float: left;
+    min-height: 10em;
+  }
+  #tile1 {
+    padding: 5px 15px 5px 15px;
+    background-color: gray;
+    margin-top: 25px;
+    float: left;
+    margin-left: 6%;
+    width: 50%;
+  
+  }
+  #tile2 {
+    padding: 5px 15px 5px 15px;
+    background-color: gray;
+    margin-top: 25px;
+    float: left;
+    margin-left: 6%;
+    width: 50%;
+  
+  }
+  #tile3 {
+    padding: 5px 15px 5px 15px;
+    background-color: gray;
+    margin-top: 25px;
+    float: left;
+    margin-left: 6%;
+    width: 50%;
+   
+  }
+}
+
+/********** Medium devices only **********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    float: left;
+  }
+  .col-md-6{
+    width: 40%;
+    max-width: 100%;
+    min-height: 10em;
+  }
+ 
+  #tile1 {
+    padding: 5px 15px 5px 15px;
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: 5%;
+   
+    margin-bottom: 25px;
+  }
+  #tile2 {
+    padding: 5px 15px 5px 15px;
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: 7%;
+    margin-bottom: 25px;
+  }
+  #tile3 {
+  
+    padding: 5px 15px 5px 15px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 5%;
+    width: 87.5%;
+    margin-bottom: 25px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 11px) and (max-width: 767px) {
+  .col-sm-12 {
+    width: 90%;
+  }
+  .col-sm-12 {
+    float: left;
+    min-height: 10em;
+  }
+  #tile1  {
+    padding: 5px 15px 5px 15px;
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-bottom: 25px;
+  }
+  #tile2  {
+    padding: 5px 15px 5px 15px;
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-bottom: 25px;
+  }
+  #tile3  {
+    padding: 5px 15px 5px 15px;
+    background-color: gray;
+    margin-top: 15px;
+    margin-left: 5%;
+    margin-bottom: 25px;
+  }
+}
